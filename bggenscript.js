@@ -1,3 +1,5 @@
+var _ = require('lodash');
+
 let css = document.querySelector("h3");
 let gradientType = document.querySelector(".gradient-type")
 let color1 = document.querySelector(".color1");
