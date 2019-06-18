@@ -4,7 +4,7 @@
   "description": "NOTICE: THIS IS A TEST DIRECTORY NOT MEANT FOR COLLABORATION",
   "main": "bggenscript.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify bggenscript > bundle.js && live-server"
   },
   "repository": {
     "type": "git",
